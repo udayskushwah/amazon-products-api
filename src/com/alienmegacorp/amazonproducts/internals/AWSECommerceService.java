@@ -16,6 +16,8 @@ import javax.xml.ws.WebServiceFeature;
 public class AWSECommerceService extends Service
 {
     final private static URL AWSECOMMERCESERVICE_WSDL_LOCATION;
+	
+	//fixing some issue.
 
     final private static Logger logger = Logger
         .getLogger(com.alienmegacorp.amazonproducts.internals.AWSECommerceService.class.getName());
